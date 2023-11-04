@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: margheproject
+  labels:
+    backstage.io/kubernetes-id: mywebsite100
+    app.kubernetes.io/name: mywebsite100
+    rht-gitops.com/janus-argocd: mywebsite100
+spec:
